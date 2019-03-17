@@ -3,58 +3,34 @@
   <head>
     <title>JETZT – Schreibcoaching mit Ariel Hauptmeier</title>
     <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link
-      href="https://fonts.googleapis.com/css?family=Gothic+A1:300,400,900,600"
+      href="https://fonts.googleapis.com/css?family=Gothic+A1:300,600,900"
       rel="stylesheet"
     />
 
     <style>
       body {
+        margin: 0;
         font-family: "Gothic A1", sans-serif;
         -webkit-font-smoothing: antialiased;
         font-weight: 300;
-        font-size: 20px;
       }
 
-      #container {
-        max-width: 500px;
-        min-width: 320px;
-        margin: 0 auto;
-      }
-
-      #title,
-      #subtitle {
-        display: block;
-        text-align: center;
-      }
-
-      #hero {
-        margin: 0 -50px;
-      }
-
-      #title {
-        font-size: 120px;
-        font-weight: 900;
-      }
-
-      #subtitle {
-        font-weight: 600;
+      p,
+      address {
+        line-height: 28px;
         font-size: 18px;
       }
 
-      #claim {
-        font-weight: 300;
-        font-size: 36px;
-        text-align: center;
-      }
-      #claim:after {
-        content: "–";
-        display: block;
-        color: #ccc;
+      blockquote {
+        margin-left: 0;
+        border-left: 3px solid #ccc;
+        padding-left: 5px;
       }
 
-      p {
-        line-height: 32px;
+      blockquote p {
+        font-weight: 600;
       }
 
       img {
@@ -73,13 +49,69 @@
         border-bottom: 1px dashed black;
       }
 
-      blockquote {
-        margin-left: 0;
-        padding-left: 20px;
-        border-left: 3px solid #ccc;
+      #container {
+        min-width: 310px;
+        margin: 0 5px;
       }
-      blockquote p {
+
+      #title,
+      #subtitle {
+        display: block;
+        text-align: center;
+      }
+
+      #title {
+        font-weight: 900;
+        font-size: 70px;
+      }
+
+      #subtitle {
         font-weight: 600;
+        font-size: 16px;
+      }
+
+      #claim {
+        font-weight: 300;
+        text-align: center;
+      }
+
+      #claim:after {
+        content: "–";
+        display: block;
+        color: #ccc;
+      }
+
+      @media (min-width: 601px) {
+        p,
+        address {
+          line-height: 32px;
+          font-size: 20px;
+        }
+
+        blockquote {
+          padding-left: 20px;
+        }
+
+        #title {
+          font-size: 120px;
+        }
+
+        #subtitle {
+          font-weight: 600;
+          font-size: 18px;
+        }
+
+        #claim {
+          font-size: 36px;
+          text-align: center;
+        }
+        #container {
+          max-width: 500px;
+          margin: 0 auto;
+        }
+        #hero {
+          margin: 0 -50px;
+        }
       }
     </style>
   </head>
@@ -141,6 +173,12 @@
             href="https://www.eventbrite.de/e/50-werkzeuge-fur-bessere-satze-tickets-56488054291?aff=ebdssbdestsearch"
             >„50 Werkzeuge für bessere Sätze“</a
           >. Er dauert einen, besser zwei Tage.
+        </p>
+        <p>
+          Gutes Schreiben ist universell: Von meinen Kursen profitieren
+          Reporterinnen und Redakteure, Pressesprecherinnen und Juristen,
+          Wissenschaftlerinnen und Aktivisten, Autorinnen und Autoren. All jene,
+          die durchdringen wollen.
         </p>
         <p>
           Gern komme ich zu Ihnen in die Redaktion, die Agentur, in Ihr
